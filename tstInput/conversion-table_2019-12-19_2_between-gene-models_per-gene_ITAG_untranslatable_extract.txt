@@ -1,0 +1,6 @@
+geneID
+Sotub01g025190.1.1
+Sotub01g025200.1.1
+Sotub01g025210.1.1
+Sotub05g010570.1.1
+Sotub06g019700.1.1
