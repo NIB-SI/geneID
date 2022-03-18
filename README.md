@@ -25,8 +25,11 @@ done;
 ## FLASK
 
 <https://blog.appseed.us/flask-react-full-stack-seed-projects/>
+
 <https://dev.to/dev_elie/connecting-a-react-frontend-to-a-flask-backend-h1o>
+
 <https://flask.palletsprojects.com/en/2.0.x/>
+
 <https://dev.to/gajesh/the-complete-flask-beginner-tutorial-124i>
 
 
