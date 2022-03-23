@@ -34,6 +34,10 @@ done;
 
 <https://www.mysql.com/products/workbench/migrate/>
 
+<https://dev.mysql.com/doc/workbench/en/wb-migration-install.html>
+
+
+
 ## FLASK
 
 <https://blog.appseed.us/flask-react-full-stack-seed-projects/>
