@@ -30,6 +30,10 @@ for f in *fasta; do
 done;
 ```
 
+## MS SQL MySQL migrations 
+
+<https://www.mysql.com/products/workbench/migrate/>
+
 ## FLASK
 
 <https://blog.appseed.us/flask-react-full-stack-seed-projects/>
