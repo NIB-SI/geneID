@@ -45,6 +45,6 @@ done;
 
 <https://cytoscape.org/>
 
-<https://neo4j.com/>
+<https://github.com/neo4j/neo4j>
 
 
