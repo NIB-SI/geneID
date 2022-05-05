@@ -58,4 +58,10 @@ done;
 
 <https://github.com/neo4j/neo4j>
 
+# FASTA files
+<https://fairdomhub.org/assays/1268?graph_view=tree>
+
+<https://fairdomhub.org/data_files/3424>
+
+<https://fairdomhub.org/data_files/3415>
 
