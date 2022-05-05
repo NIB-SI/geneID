@@ -30,6 +30,9 @@ for f in *fasta; do
 done;
 ```
 
+## tab to fasta
+<https://fairdomhub.org/data_files/3420>
+
 ## MS SQL MySQL migrations 
 
 <https://www.mysql.com/products/workbench/migrate/>
