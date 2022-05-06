@@ -33,6 +33,9 @@ done;
 ## tab to fasta
 <https://fairdomhub.org/data_files/3420>
 
+## fasta to tab
+<https://bioinformatics.stackexchange.com/questions/14818/creating-a-tab-delimited-file>
+
 ## MS SQL MySQL migrations 
 
 <https://www.mysql.com/products/workbench/migrate/>
