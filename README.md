@@ -10,6 +10,8 @@ Moreover, user can choose to conduct a query across three hierarchical levels of
 2. Considering alternative and representative sequences
 2. All sequences – i.e. alternative, representative and cultivar-specific sequences
 
+At the time, geneID contains potato sequenceIDs and corresponding sequences, however it is organism-agnostic. 
+
 
 
 ![](./Figures/icon_6.png "Fig1")
