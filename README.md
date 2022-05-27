@@ -1,7 +1,7 @@
 # geneID
 geneID app
 
-![Test](https://www.nib.si/templates/elos/images/icon_6.png "Fig1")
+![Test](./Figures/icon_6.png "Fig1")
 
 
 # Comment section
