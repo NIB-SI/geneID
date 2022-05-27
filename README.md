@@ -1,25 +1,18 @@
 # geneID
-geneID app
-
-![Test](./Figures/icon_6.png "Fig1")
 
 
-# Comment section
-## Un
-```
-PGSC0003DMC402000072
-PGSC0003DMC402000097
-PGSC0003DMC402000271
-PGSC0003DMC402000180
-```
+![](./Figures/icon_6.png "Fig1")
 
-## 2nd step translation
-```
-PGSC0003DMG400031320
-PGSC0003DMG402021564
-PGSC0003DMG401021549
-PGSC0003DMG400019386
-```
+
+## About the App
+
+
+## Depenndecies
+
+## SetUp
+
+## DB creation
+
 
 # Hints section
 ## subset fasta
@@ -45,7 +38,6 @@ done;
 <https://dev.mysql.com/doc/workbench/en/wb-migration-install.html>
 
 
-
 ## FLASK
 
 <https://blog.appseed.us/flask-react-full-stack-seed-projects/>
@@ -56,14 +48,14 @@ done;
 
 <https://dev.to/gajesh/the-complete-flask-beginner-tutorial-124i>
 
-# other tools
+## other tools
 <https://igraph.org/>
 
 <https://cytoscape.org/>
 
 <https://github.com/neo4j/neo4j>
 
-# FASTA files
+## FASTA files
 <https://fairdomhub.org/assays/1268?graph_view=tree>
 
 <https://fairdomhub.org/data_files/3424>
