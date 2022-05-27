@@ -1,10 +1,20 @@
-# geneID
+# geneID v3
+
+## About the App
+
+
+geneID v3 is a browser-based application that takes user’s defined sequenceID, or a comma-separated list of sequenceIDs, and returns corresponding coding sequences (_cds_) and polypeptide (_pep_) sequences in the new tab. 
+User is able to choose to download visualised results either as TAB-separated (```.txt```) files or FASTA (```.fasta```) files, or both. 
+Moreover, user can choose to conduct a query across three hierarchical levels of information: 
+1. Considering representative sequences only
+2. Considering alternative and representative sequences
+2. All sequences – i.e. alternative, representative and cultivar-specific sequences
+
 
 
 ![](./Figures/icon_6.png "Fig1")
 
 
-## About the App
 
 
 ## Dependencies
