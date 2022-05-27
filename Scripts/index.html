@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>NIB aplication</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body style="background: linear-gradient(90deg, rgb(0, 0, 0), rgb(38, 38, 38), rgb(0, 0, 0));">
+        
+        <h1 style="color:white;">GeneID (version 3) </h1>
+
+
+        <form  action="master.php" method="post">
+            
+            
+            <label id="label1" style="color:white;" for="gene_ID"><b>Enter one sequence id or comma separated list:</b></label>
+            <textarea id="gene_ID" name="gene_ID" placeholder="CLCdnDe10_100013,CLCdnDe1_10000" rows="5" cols="33"></textarea>
+            
+            
+            <br><br>
+
+            <input type="radio" id="select1" name="select1" value="select1" checked>
+            <label style="color:white;" for="select1">Representative</label>
+            <input type="radio" id="select2" name="select1" value="select2">
+            <label style="color:white;" for="select2">Representative and alternative</label>
+            <input type="radio" id="All" name="select1" value="All">
+            <label style="color:white;" for="All">All</label>
+            <br><br>
+            <button style="background-color: rgb(24, 24, 24);
+                           font-size: 24px;
+                           font-family: monospace;
+                           border-radius: 8px;
+                           border-color: greenyellow;
+                           color: white;" id="ola"  name="submit_button" type="submit" value="Submit"  >
+                        Search
+            </button>
+            
+        </form>
+    <div class="post">
+        <img style="display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 25px;
+                    width: 17%;" src = "logo sivi.svg" alt="Sivi logo SVG"/>
+
+        <p style="font-family: monospace;
+                  font-size: 20px;
+                  color: rgb(68, 68, 68);
+                  text-align: right;
+                  margin-right: 30px;
+                  margin-top: 1cm;"> <br>
+                                    <a href="https://github.com/phineas77">Veljko Dudi&cacute;</a></p>
+        
+    </div>
+        
+    </body>
+
+</html>
