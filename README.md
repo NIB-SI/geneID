@@ -1,6 +1,5 @@
 # geneID
 
-Test 
 
 ![](./Figures/icon_6.png "Fig1")
 
@@ -8,7 +7,7 @@ Test
 ## About the App
 
 
-## Depenndecies
+## Dependencies
 
 ## SetUp
 
