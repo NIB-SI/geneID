@@ -67,16 +67,16 @@ if (isset($_POST['gene_ID'])){
     FROM [Praksa].[dbo].[tableID]
     LEFT JOIN [tableCDS]
     ON [tableCDS].geneid = [tableID].geneID
-    WHERE select1 = '1' AND panID_L0 IN 
+    WHERE cds IS NOT NULL AND select1 = '1' AND panID_L0  IN 
     (SELECT  [panID_L0]
     FROM [Praksa].[dbo].[tableID]
-    WHERE geneID IN ('$gene_ID'))
+    WHERE  geneID IN ('$gene_ID'))
     UNION
     SELECT [Praksa].[dbo].[tableID].geneID, [Praksa].[dbo].[tableID].panID_L0, [Praksa].[dbo].[tableID].cvID_L1, [Praksa].[dbo].[tableID].classID_L1, [Praksa].[dbo].[tableCDS].cds 
     FROM [Praksa].[dbo].[tableID]
     LEFT JOIN [tableCDS]
     ON [tableCDS].geneID = [tableID].pepID
-    WHERE select1 = '1' AND panID_L0 IN 
+    WHERE cds IS NOT NULL AND select1 = '1' AND panID_L0 IN 
     (SELECT  [panID_L0]
     FROM [Praksa].[dbo].[tableID]
     WHERE pepID IN ('$gene_ID'))";
@@ -86,7 +86,7 @@ if (isset($_POST['gene_ID'])){
     FROM [Praksa].[dbo].[tableID]
     LEFT JOIN [tableCDS]
     ON [tableCDS].geneid = [tableID].geneID
-    WHERE (select1 = '1' OR select2 = '1') AND panID_L0 IN 
+    WHERE  (select1 = '1' OR select2 = '1') AND cds IS NOT NULL AND panID_L0 IN 
     (SELECT  [panID_L0]
     FROM [Praksa].[dbo].[tableID]
     WHERE geneID IN ('$gene_ID'))
@@ -95,7 +95,7 @@ if (isset($_POST['gene_ID'])){
     FROM [Praksa].[dbo].[tableID]
     LEFT JOIN [tableCDS]
     ON [tableCDS].geneID = [tableID].pepID
-    WHERE (select1 = '1' OR select2 = '1') AND panID_L0 IN 
+    WHERE (select1 = '1' OR select2 = '1') AND cds IS NOT NULL AND panID_L0 IN 
     (SELECT  [panID_L0]
     FROM [Praksa].[dbo].[tableID]
     WHERE pepID IN ('$gene_ID'))";
@@ -105,7 +105,7 @@ if (isset($_POST['gene_ID'])){
     FROM [Praksa].[dbo].[tableID]
     LEFT JOIN [tableCDS]
     ON [tableCDS].geneid = [tableID].geneID
-    WHERE panID_L0 IN 
+    WHERE cds IS NOT NULL AND panID_L0 IN 
     (SELECT  [panID_L0]
     FROM [Praksa].[dbo].[tableID]
     WHERE geneID IN ('$gene_ID'))
@@ -114,7 +114,7 @@ if (isset($_POST['gene_ID'])){
     FROM [Praksa].[dbo].[tableID]
     LEFT JOIN [tableCDS]
     ON [tableCDS].geneID = [tableID].pepID
-    WHERE panID_L0 IN 
+    WHERE cds IS NOT NULL AND panID_L0 IN 
     (SELECT  [panID_L0]
     FROM [Praksa].[dbo].[tableID]
     WHERE pepID IN ('$gene_ID'))";
