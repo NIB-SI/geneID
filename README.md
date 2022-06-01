@@ -25,7 +25,7 @@ At the time, geneID contains potato sequenceIDs and corresponding sequences, how
 
 *Landing page, query option2*
 
-![Fig3](./Figures/slika3.png)
+![Fig3](./Figures/slika4.png)
 
 *results page*
 
