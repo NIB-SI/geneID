@@ -36,7 +36,7 @@ At the time, geneID contains potato sequenceIDs and corresponding sequences, how
 User needs to install:
 1. [Visual studio code]( https://code.visualstudio.com/) (April 2022, v 1.67) 
 2. In Visual Studio Code add extension SQL Server (mssql)
-3. [XAMMP](https://www.apachefriends.org/index.html) (v 8.1.6, PHP 8.1.6)
+3. [XAMMP](https://www.apachefriends.org/index.html) (v 8.1.6, PHP 8.1.6) \
 _Note:_ Install just apache server, other things such as MySQL, FileZilla, Mercury and Tomcat are not needed
 4. [Microsoft SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16) (v 18.11.1)
 5. [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows) (v 2022.1.1)
