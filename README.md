@@ -47,10 +47,10 @@ _Note:_ Install just apache server, other things such as MySQL, FileZilla, Mercu
      `right click on your database -> Tasks -> Import Flat File -> Select table(s)`  
 3.	Download all files for ***Visual studio code*** from [Scripts](https://github.com/NIB-SI/geneID/tree/main/Scripts) directory
 4.	Deposit all necessary files into `htcdocs` designated directory in your installation folder for ***XAMMP***
-5.	Connect database from ***Microsoft SQL Server Management Studio*** to ***Visual studio code* \
+5.	Connect database from ***Microsoft SQL Server Management Studio*** to ***Visual studio code*** \
     _Note:_ Follow steps listed at [Connect to your database](https://docs.microsoft.com/en-us/azure/azure-sql/database/connect-query-vscode?view=azuresql#connect-to-your-database)
 6.	Open ***XAMMP*** and press `start button` (to the right of the module ***Apache***)
-7.	Open your browser and type `localhost/the-name-directory` in which you saved your ***Visual studio code*** files
+7.	Open your browser and type `localhost/the-name-of-directory` in which you saved your ***Visual studio code*** files
 
 
 
