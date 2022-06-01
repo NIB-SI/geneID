@@ -14,6 +14,9 @@ At the time, geneID contains potato sequenceIDs and corresponding sequences, how
 
 
 
+
+
+
 ![Fig1](./Figures/slika1.png)
 
 *Landing page, query option1*
@@ -30,10 +33,49 @@ At the time, geneID contains potato sequenceIDs and corresponding sequences, how
 
 
 ## Dependencies
+User needs to install:
+1. [Visual studio code]( https://code.visualstudio.com/) (April 2022, v 1.67) 
+2. In Visual Studio Code add extension SQL Server (mssql)
+3. [XAMMP](https://www.apachefriends.org/index.html) (v 8.1.6, PHP 8.1.6)
+_Note:_ Install just apache server, other things such as MySQL, FileZilla, Mercury and Tomcat are not needed
+4. [Microsoft SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16) (v 18.11.1 )
+5. [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows) (version 2022.1.1)
 
 ## SetUp
+1.	Prepare/download  table(s) containing geneIDs, and the corresponding cds and pep sequences
+2.	Import them in Microsoft SQL Server Management Studio
+_Note:_ Open Microsoft SQL Server Management Studio -> right click on your database -> Tasks -> Import Flat File -> Pick file(s) with your table(s)  
+3.	Download all files  for Visual Studio Code. All from “Scripts” directory (index.html, jquery.cdstofasta.js, jquery.cdstotsv.js, jquery.peptofasta.js,jquery.peptotsv.js, logo sivi.svg, master.php, style.css, table.css).
+4.	Deposit all necessary files into htcdocs designated directory in your installation folder for XAMMP 
+5.	Connect database from Microsoft SQL Server Management Studio to Visual Studio Code
+_Note:_ Follow steps from this web page (Paragraph “Connect to your database”): (Use Visual Studio Code to connect and query - Azure SQL Database & SQL Managed Instance | Microsoft Docs)
+6.	Open XAMMP and press start button (to the right of the module “Apache”)
+7.	Open your browser and type “localhost/the name of your directory” in which you saved your Visual Studio Code files
+
 
 ## DB creation
+Download all fasta files and download [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows)
+In PyCharm copy this code (it can be found on: (https://stackoverflow.com/questions/39806301/convert-a-fasta-file-to-a-tab-delimited-file-using-python-script)): 
+
+out_lines = []
+temp_line = ''
+with open('path/to/file','r') as fp:
+     for line in fp:
+         if line.startswith('>'):
+             out_lines.append(temp_line)
+             temp_line = line.strip() + '\t'
+         else:
+             temp_line += line.strip()
+
+with open('path/to/new_file', 'w') as fp_out:
+    fp_out.write('\n'.join(out_lines))
+
+It’s useful for reformating fasta files to tab delimited files. Write the paths from your downloaded fasta files in “with open('path/to/file','r')” section of the code  and pick a directory where would like those (now tab delimited) new files to be saved(“with open('path/to/new_file', 'w')”). In Microsoft SQL Server Management Studio import these files in your  designated database. Right click on your database -> Import flat file -> Pick your file -> If needed, modify the names of your columns and types of your data.  Merge all fasta files using the following query:
+
+SELECT * FROM (name_of_your_table)
+UNION
+SELECT * FROM (name_of_second_table)
+(...)
 
 
 # Hints section
