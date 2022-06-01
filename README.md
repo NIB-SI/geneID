@@ -14,15 +14,15 @@ At the time, geneID contains potato sequenceIDs and corresponding sequences, how
 
 
 
-![Fig1](./Figures/landing_page_1.png)
+![Fig1](./Figures/slika1.png)
 
 *Landing page, query option1*
 
-![Fig2](./Figures/landing_page_4.png)
+![Fig2](./Figures/slika2.png)
 
 *Landing page, query option2*
 
-![Fig3](./Figures/landing_page_2.png)
+![Fig3](./Figures/slika3.png)
 
 *results page*
 
