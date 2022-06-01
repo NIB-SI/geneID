@@ -22,7 +22,7 @@ At the time, geneID contains potato sequenceIDs and corresponding sequences, how
 
 *Landing page, query option2*
 
-![Fig3](./Figures/landing_page_3.png)
+![Fig3](./Figures/landing_page_2.png)
 
 *results page*
 
