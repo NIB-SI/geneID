@@ -18,11 +18,11 @@ At the time, geneID contains potato sequenceIDs and corresponding sequences, how
 
 *Landing page, query option1*
 
-![Fig2](./Figures/icon_6.png)
+![Fig2](./Figures/landing_page_4.png)
 
 *Landing page, query option2*
 
-![Fig3](./Figures/icon_6.png)
+![Fig3](./Figures/landing_page_3.png)
 
 *results page*
 
