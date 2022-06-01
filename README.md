@@ -57,6 +57,7 @@ _Note:_ Follow steps from this web page (Paragraph “Connect to your database�
 Download all fasta files and download [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 In PyCharm copy this code (it can be found on: (https://stackoverflow.com/questions/39806301/convert-a-fasta-file-to-a-tab-delimited-file-using-python-script)): 
 
+```
 out_lines = []
 temp_line = ''
 with open('path/to/file','r') as fp:
@@ -69,13 +70,16 @@ with open('path/to/file','r') as fp:
 
 with open('path/to/new_file', 'w') as fp_out:
     fp_out.write('\n'.join(out_lines))
+```
 
 It’s useful for reformating fasta files to tab delimited files. Write the paths from your downloaded fasta files in “with open('path/to/file','r')” section of the code  and pick a directory where would like those (now tab delimited) new files to be saved(“with open('path/to/new_file', 'w')”). In Microsoft SQL Server Management Studio import these files in your  designated database. Right click on your database -> Import flat file -> Pick your file -> If needed, modify the names of your columns and types of your data.  Merge all fasta files using the following query:
 
+```
 SELECT * FROM (name_of_your_table)
 UNION
 SELECT * FROM (name_of_second_table)
 (...)
+```
 
 
 # Hints section
